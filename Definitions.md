@@ -1,8 +1,8 @@
 # Git commands, Some terminology, Some examples
 
-You can use Github Desktop or Git Kraken for the below commands instead as a GUI option,
+You can use [Github Desktop](https://desktop.github.com/) or [Git Kraken](https://www.gitkraken.com/) for the below commands instead, as a GUI option.
 
-### `Git Commands`
+## `Git Commands`
 
 - `git init` _initializes_ a brand new Git repository and begins tracking an existing directory/folder. It adds a _hidden subfolder_ `.git/` within the existing directory that houses the internal data structure required for version control and can be deleted (`rm -rf .git/`) if you want to stop git from tracking that directory.
 
@@ -10,9 +10,9 @@ You can use Github Desktop or Git Kraken for the below commands instead as a GUI
 
 - `git commit` _saves the snapshot_ to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that’s been staged with git add will become a part of the snapshot with `git commit`.
 
-- `git status` shows the status of changes as untracked, modified, or staged.
+- `git status` _shows the status_ of changes as **untracked**, **modified**, or **staged**.
 
-- `git push` pushes your local commits up to a `remote`.
+- `git push` _pushes_ your local commits up to a `remote`.
 
 ## Let's look at a detailed step by step explanation.
 

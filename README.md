@@ -15,3 +15,4 @@ Through platforms like GitHub, Git also provides more opportunities for project 
 ### Please follow the documentation below to keep learning/following.
 
 - [Definitions and Examples](./Definitions.md)
+- [Branching](./Branching.md)
