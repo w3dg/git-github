@@ -6,9 +6,9 @@ You can use [Github Desktop](https://desktop.github.com/) or [Git Kraken](https:
 
 - `git init` _initializes_ a brand new Git repository and begins tracking an existing directory/folder. It adds a _hidden subfolder_ `.git/` within the existing directory that houses the internal data structure required for version control and can be deleted (`rm -rf .git/`) if you want to stop git from tracking that directory.
 
-- `git add` _stages_ a change. Git tracks changes to a developer’s codebase, but it’s necessary to stage and take a snapshot of the changes to include them in the project’s history. This command performs staging, the first part of that two-step process. Any changes that are staged will become a part of the next snapshot and a part of the project’s history. Staging and committing separately gives developers complete control over the history of their project without changing how they code and work.
+- `git add` _stages_ a change. Git tracks changes to a developer's codebase, but it's necessary to stage and take a snapshot of the changes to include them in the project's history. This command performs staging, the first part of that two-step process. Any changes that are staged will become a part of the next snapshot and a part of the project's history. Staging and committing separately gives developers complete control over the history of their project without changing how they code and work.
 
-- `git commit` _saves the snapshot_ to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that’s been staged with git add will become a part of the snapshot with `git commit`.
+- `git commit` _saves the snapshot_ to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that's been staged with git add will become a part of the snapshot with `git commit`.
 
 - `git status` _shows the status_ of changes as **untracked**, **modified**, or **staged**.
 

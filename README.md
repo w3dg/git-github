@@ -12,7 +12,8 @@ Through platforms like GitHub, Git also provides more opportunities for project 
 
 #### Now we are ready to start with `git`
 
-### Please follow the documentation below to keep learning/following.
+### You can read more below to keep learning/following.
 
 - [Definitions and Examples](./Definitions.md)
 - [Branching](./Branching.md)
+- [Forking](./Forking.md)
